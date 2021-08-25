@@ -443,7 +443,7 @@
     align-items: center;
     flex-direction: column;
     height: 600px;
-    width: 100%;
+    width: 92%;
     margin-right: 20px;
     margin-left: 20px;
 }
@@ -676,4 +676,23 @@
 
 .activites-titre6 h3{
     padding-left: 10px;
+}
+
+/* FOOTER */
+
+.pied-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    background-color: var(--grey);
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.pied-type{
+    margin-left: 50px;
+    width: 30%;
 }
