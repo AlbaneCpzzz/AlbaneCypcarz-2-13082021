@@ -12,3 +12,61 @@
     font-family: Raleway;
 }
 
+/* HEADER */
+
+.en-tete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 40%;
+}
+
+.nav-hebergements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 140px;
+    color: var(--blue);
+    border-top: 1px solid var(--blue);
+    text-decoration: none;
+}
+
+.nav-activites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 140px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.nav-inscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 140px;
+    color: var(--blue);
+    font-weight: bold;
+    text-decoration: none;
+}
