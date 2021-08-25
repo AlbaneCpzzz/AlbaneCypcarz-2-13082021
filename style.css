@@ -1,1 +1,14 @@
+/* reset all default style */
+
+:root{
+    --blue:#0065FC;
+    --lightblue:#DEEBFF;
+    --grey:#F2F2F2;
+    --black:black;
+    --white:white;
+}
+
+.html,body{
+    font-family: Raleway;
+}
 
