@@ -70,3 +70,15 @@
     font-weight: bold;
     text-decoration: none;
 }
+
+/* TITRE PAGE */
+
+.titre-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    line-height: 0%;
+    margin-bottom: 20px;
+}
+
