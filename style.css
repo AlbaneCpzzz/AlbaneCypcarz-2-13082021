@@ -10,65 +10,86 @@
 
 .html,body{
     font-family: Raleway;
+    margin: 20px;
 }
 
 /* HEADER */
 
 .en-tete{
     display: flex;
-    justify-content: space-between;
     align-items: center; 
-    height: 80px;
-    width: 100%;
+    height: 100px;
+    width: auto;
     margin-bottom: 10px;
 }
 
-.logo img{
+.logo{
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 100%;
+    height: 100%;
+    width: 55%;
 }
 
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    width: 40%;
+.logo img{
+    height: auto;
+    width: 140px;
 }
 
 .nav-hebergements{
+    height: 100%;
+    width: 15%;
+}
+
+.nav-hebergements a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    width: 140px;
+    color: black;
+    text-decoration: none;
+    height: 100%;
+}
+
+.nav-hebergements a:hover{
     color: var(--blue);
     border-top: 1px solid var(--blue);
+    height: 100%;
     text-decoration: none;
 }
 
 .nav-activites{
+    height: 100%;
+    width: 15%;
+}
+
+.nav-activites a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    width: 140px;
-    color: var(--black);
+    color: black;
+    text-decoration: none;
+    height: 100%;
+}
+
+.nav-activites a:hover{
+    color: var(--blue);
+    border-top: 1px solid var(--blue);
+    height: 100%;
     text-decoration: none;
 }
 
 .nav-inscription{
+    height: 100%;
+    width: 15%;
+}
+
+.nav-inscription a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    width: 140px;
     color: var(--blue);
     font-weight: bold;
     text-decoration: none;
+    height: 100%;
 }
 
 /* TITRE PAGE */
@@ -77,7 +98,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     line-height: 0%;
     margin-bottom: 20px;
 }
@@ -119,6 +140,7 @@
     font-weight: bold;
     font-size: unset;
     border-style: none;
+    padding-left: 10px;
 }
 
 .bouton{
@@ -326,11 +348,11 @@
 .populaires{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     flex:30%;
     height: 600px;
     border:1px solid var(--grey);
     background-color: var(--grey);
-    margin-right: 20px;
     border-radius: 20px;
 }
 
@@ -442,13 +464,10 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 600px;
-    width: 92%;
-    margin-right: 20px;
-    margin-left: 20px;
+    height: auto;
 }
 
-.activites-marseille{
+.activites-marseille h2{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -461,14 +480,12 @@
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(2, 50%);
-    grid-column-gap: 20px;
-    height: 90%;
+    height: 600px;
     width: 100%;
 }
 
 .activites1{
     grid-area: 1 / 1 / 3 / 2;
-    margin-left: 15px;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -481,7 +498,7 @@
 }
 
 .activites-photo1{
-    height: 90%;
+    height: 100%;
     width: 90%;
     border-radius: 30px 30px 0 0;
     object-fit: cover;
@@ -502,8 +519,7 @@
 }
 
 .activites2{
-    grid-area: grid-area: 1 / 2 / 2 / 3;
-    margin-left: 15px;
+    grid-area: 1 / 2 / 2 / 3;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -538,7 +554,6 @@
 
 .activites3{
     grid-area: 2 / 2 / 3 / 3;
-    margin-left: 15px;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -574,7 +589,6 @@
 
 .activites4{
     grid-area: 1 / 3 / 3 / 4;
-    margin-left: 15px;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -609,7 +623,6 @@
 
 .activites5{
     grid-area: 1 / 4 / 2 / 5;
-    margin-left: 15px;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -644,7 +657,6 @@
 
 .activites6{
     grid-area: 2 / 4 / 3 / 5;
-    margin-left: 15px;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -686,7 +698,7 @@
     align-items: flex-start;
     flex-direction: row;
     height: 200px;
-    width: 100%;
+    width: auto;
     background-color: var(--grey);
     margin-top: 40px;
     padding-top: 20px;
@@ -696,3 +708,294 @@
     margin-left: 50px;
     width: 30%;
 }
+
+/* Responsive */
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+
+    .html,body{
+        width: 95%;
+        font-size: 80%;
+    }
+
+    #header{
+        width: 100%;
+        height: auto;
+    }
+
+    .en-tete{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+    }
+    
+    .logo {
+        grid-area: 1 / 1 / 2 / 2;
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo img{
+        width: auto;
+        height: 70%;
+    }
+    
+    .nav-hebergements{
+        grid-area: 2 / 1 / 3 / 2;
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav-hebergements a{
+        border-bottom: 1px solid var(--grey);
+    }
+
+    .nav-hebergements a:hover{
+        color: var(--blue);
+        border-top: none;
+        border-bottom: 1px solid var(--blue);
+        height: 100%;
+        text-decoration: none;
+    }
+    
+    .nav-activites{
+        grid-area: 2 / 2 / 3 / 3;
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav-activites a{
+        border-bottom: 1px solid var(--grey);
+    }
+
+    .nav-activites a:hover{
+        color: var(--blue);
+        border-top: none;
+        border-bottom: 1px solid var(--blue);
+        height: 100%;
+        text-decoration: none;
+    }
+    
+    .nav-inscription{
+        grid-area: 1 / 2 / 2 / 3;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-inscription a{
+        padding-right: 20px;
+    }
+
+    .titre-page{
+        width: 95%;
+    }
+
+    .titre-page h1{
+        line-height: initial;
+    }
+
+    .titre-page p{
+        line-height: initial;
+    }
+
+    .search{
+        width: 95%;
+    }
+
+    .barre-recherche{
+        font-size:x-small;
+    }
+
+    .filtres{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .titre-filtres{
+        width: 100%;
+    }
+
+    #hebergements-populaires{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .hebergements-marseille{
+        width: 100%;
+        order: 1;
+        margin: 10px;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .hebergements-item{
+        width: 100%;
+        flex: 1;
+        margin: 10px 0;
+    }
+    .hebergements-type{
+        flex-direction: column !important;
+    }
+
+    .populaires{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .populaires-titre{
+        width: 100%;
+        padding: 0;
+    }
+
+    .populaires-titre h2{
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .icon-chart{
+        padding-right: 30px;
+    }
+
+    .populaires-type{
+        width: 100%;
+    }
+
+    .populaires-item{
+        min-width: 240px;
+    }
+
+
+    .populaires-photo{
+        min-width: 130px;
+    }
+
+    .populaires-description{
+        height: 80%;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+
+    .populaires-note{
+        padding-top: 10px;
+    }
+
+    #activites{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .activites-marseille{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .activites-block{
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .activites1{
+        height: 190px;
+        width: 100%;
+        align-self: flex-start;
+        margin: 0;
+    }
+
+    .activites-photo1{
+        height: 70%;
+    }
+
+    .activites-titre1{
+        height: 30%;
+    }
+
+    .activites2{
+        height: 190px;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .activites-photo2{
+        height: 70%;
+    }
+    .activites-titre2{
+        height: 30%;
+    }
+
+    .activites3{
+        height: 190px;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .activites-photo3{
+        height: 70%;
+    }
+    .activites-titre3{
+        height: 30%;
+    }
+
+    .activites4{
+        height: 190px;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .activites-photo4{
+        height: 70%;
+    }
+    .activites-titre4{
+        height: 30%;
+    }
+
+    .activites5{
+        height: 190px;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .activites-photo5{
+        height: 70%;
+    }
+    .activites-titre5{
+        height: 30%;
+    }
+
+    .activites6{
+        height: 190px;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .activites-photo6{
+        height: 70%;
+    }
+    .activites-titre6{
+        height: 30%;
+    }
+
+    .pied-page{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .pied-type{
+        width: 60%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    
