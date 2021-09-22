@@ -640,6 +640,11 @@
     width: 30%;
 }
 
+/* MEDIA Responsive - PETIT APPAREIL */
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {}
+
+
 /* MEDIA Responsive - SMARTPHONE */
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
@@ -875,10 +880,6 @@
         height: 70%;
     }
 
-    .activites-titre1{
-        height: 30%;
-    }
-
     .activites2{
         height: 190px;
         width: 100%;
@@ -889,9 +890,6 @@
 
     .activites-photo2{
         height: 70%;
-    }
-    .activites-titre2{
-        height: 30%;
     }
 
     .activites3{
@@ -905,9 +903,6 @@
     .activites-photo3{
         height: 70%;
     }
-    .activites-titre3{
-        height: 30%;
-    }
 
     .activites4{
         height: 190px;
@@ -919,9 +914,6 @@
 
     .activites-photo4{
         height: 70%;
-    }
-    .activites-titre4{
-        height: 30%;
     }
 
     .activites5{
@@ -935,9 +927,6 @@
     .activites-photo5{
         height: 70%;
     }
-    .activites-titre5{
-        height: 30%;
-    }
 
     .activites6{
         height: 190px;
@@ -949,10 +938,6 @@
 
     .activites-photo6{
         height: 70%;
-    }
-
-    .activites-titre6{
-        height: 30%;
     }
 
     .pied-page{
