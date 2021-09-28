@@ -120,7 +120,7 @@
     justify-content: center;
     align-items: center;
     height: 51px;
-    width: 51px;
+    width: 51px;  
     background-color: var(--grey);
     border-radius: 10px 0 0 10px;
 }
@@ -156,6 +156,10 @@
     background-color: var(--blue);
     border: none;
     border-radius: 0 15px 15px 0;
+}
+
+.bouton-search{
+    display: none;
 }
 
 /* FILTRES */
@@ -743,12 +747,34 @@
         align-content: center;
     }
 
+    .bouton{
+        display: none
+    }
+    
+    .bouton-search{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        height: 100%;
+        color: var(--white);
+        font-weight: bold;
+        font-size: unset;
+        background-color: var(--blue);
+        border: none;
+        border-radius: 15px;
+    }
+
     .icon-map{
-        width:80px;
+        width:20%;
     }
 
     .barre{
         font-size: 85%;
+    }
+
+    .barre-recherche{
+        width: 60%;
     }
 
     .filtres{
