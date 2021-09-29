@@ -4,8 +4,6 @@
     --blue:#0065FC;
     --lightblue:#DEEBFF;
     --grey:#F2F2F2;
-    --black:black;
-    --white:white;
 }
 
 .html,body{
@@ -13,6 +11,8 @@
     margin: 20px;
     overflow-x: hidden;
 }
+
+/*Desktop*/
 
 /* HEADER */
 
@@ -150,7 +150,7 @@
     align-items: center;
     height: 51px;
     width: fit-content;
-    color: var(--white);
+    color: white;
     font-weight: bold;
     font-size: unset;
     background-color: var(--blue);
@@ -209,7 +209,7 @@
     width: fit-content;
     margin-left: 10px;
     margin-right: 10px;
-    color: var(--black);
+    color: black;
     font-weight: bold;
     border-color: var(--grey) solid 3px;
     border-radius: 0px 50px 50px 0px;
@@ -280,7 +280,7 @@
     align-items: center;
     flex-direction: column;
     flex: 25%;
-    background-color: var(--white);
+    background-color: white;
     line-height: 0%;
     border-radius: 30px;
     margin: 15px;
@@ -398,7 +398,7 @@
     height: 135px;
     width: 90%;
     margin: 15px;
-    background-color: var(--white);
+    background-color: white;
     border-radius: 30px;
     box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.452);
 }
@@ -645,14 +645,18 @@
 }
 
 
-/* MEDIA Responsive - SMARTPHONE */
+/* MEDIA Responsive - Mobile */
 
 @media only screen and (max-width: 600px) {
+
+    /* Reset */
 
     .html,body{
         width: 90%;
         font-size: 95%;
     }
+
+    /* HEADER */
 
     #header{
         width: 100%;
@@ -726,6 +730,8 @@
         padding-right: 20px;
     }
 
+    /* TITRE PAGE */
+
     .titre-page{
         width: 95%;
         margin-bottom: 30px;
@@ -735,6 +741,8 @@
         line-height: initial;
         margin: 5px;
     }
+
+    /* RECHERCHE */
 
     .titre-page p{
         line-height: initial;
@@ -757,7 +765,7 @@
         align-items: center;
         width: 20%;
         height: 100%;
-        color: var(--white);
+        color: white;
         font-weight: bold;
         font-size: unset;
         background-color: var(--blue);
@@ -777,6 +785,8 @@
         width: 60%;
     }
 
+    /* FILTRES */
+
     .filtres{
         width: 100%;
         flex-wrap: wrap;
@@ -786,6 +796,8 @@
     .titre-filtres{
         width: 100%;
     }
+
+    /* HEBERGEMENTS */
 
     #hebergements-populaires{
         width: 100%;
@@ -810,6 +822,8 @@
     .hebergements-type{
         flex-direction: column !important;
     }
+
+    /* POPULAIRES*/
 
     .populaires{
         width: 100%;
@@ -866,6 +880,8 @@
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    /* ACTIVITES */
 
     #activites{
         width: 100%;
@@ -962,15 +978,19 @@
         height: 70%;
     }
 
+    /* FOOTER */
+
     .pied-page{
         width: 100%;
         display: flex;
         flex-direction: column;
         height: auto;
+        font-size: 100%;
     }
 
     .pied-type{
-        width: 60%;
+        margin: 10px;
+        width: 100%;
     }
 
 }
@@ -979,9 +999,13 @@
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     
+    /* Reset */
+
     .html,body{
         margin: 30px;
     }
+
+    /* HEADER */
 
     #header{
         width: 100%;
@@ -1008,6 +1032,8 @@
         width: 20%;
     }
 
+    /* TITRE PAGE */
+
     .titre-page{
         width: 95%;
         line-height: 0%;
@@ -1023,9 +1049,13 @@
         margin: 5px;
     }
 
+    /* RECHERCHE */
+
     .search{
         width: 400px;
     }
+
+    /* FILTRES */
 
     .filtres{
         width: 100%;
@@ -1035,6 +1065,8 @@
     .titre-filtres{
         width: 100%;
     }
+
+    /* HEBERGEMENTS */
 
     #hebergements-populaires{
         width: 100%;
@@ -1068,6 +1100,8 @@
     .hebergements-item{
         width: 50%;
     }
+
+    /* POPULAIRES*/
 
     .populaires{
         width: 100%;
@@ -1119,6 +1153,8 @@
     .populaires-note{
         padding-top: 0;
     }
+
+    /* ACTIVITES */
 
     #activites{
         width: 100%;
@@ -1227,6 +1263,8 @@
         height: 70%;
     }
 
+    /* FOOTER */
+    
     .pied-page{
         height: auto;
     }
