@@ -298,7 +298,7 @@
 }
 
 .hebergements-item:hover{
-    transform: scale(110%);
+    transform: scale(1.1);
 }
 
 .hebergements-photo{
@@ -416,7 +416,7 @@
 }
 
 .populaires-item:hover{
-    transform: scale(110%);
+    transform: scale(1.1);
 }
 
 .populaires-photo{
@@ -512,7 +512,7 @@
 }
 
 .activites1:hover{
-    transform: scale(105%);
+    transform: scale(1.05);
 }
 
 .activites-photo1{
@@ -547,7 +547,7 @@
 }
 
 .activites2:hover{
-    transform: scale(105%);
+    transform: scale(1.05);
 }
 
 .activites-photo2{
@@ -569,7 +569,7 @@
 }
 
 .activites3:hover{
-    transform: scale(105%);
+    transform: scale(1.05);
 }
 
 .activites-photo3{
@@ -590,7 +590,7 @@
 }
 
 .activites4:hover{
-    transform: scale(105%);
+    transform: scale(1.05);
 }
 
 .activites-photo4{
@@ -611,7 +611,7 @@
 }
 
 .activites5:hover{
-    transform: scale(105%);
+    transform: scale(1.05);
 }
 
 .activites-photo5{
@@ -633,7 +633,7 @@
 }
 
 .activites6:hover{
-    transform: scale(105%);
+    transform: scale(1.05);
 }
 
 .activites-photo6{
