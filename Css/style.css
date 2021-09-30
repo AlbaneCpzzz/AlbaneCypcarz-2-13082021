@@ -220,7 +220,6 @@
     color: black;
     font-weight: bold;
     border-color: var(--grey);
-    border:  solid 3px;
     border-radius: 0px 50px 50px 0px;
 }
 
@@ -829,7 +828,6 @@
         order: 1;
         margin: 10px;
         background-color: transparent;
-        border-color: transparent;
     }
 
     .hebergements-item{
