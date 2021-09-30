@@ -219,7 +219,8 @@
     margin-right: 10px;
     color: black;
     font-weight: bold;
-    border-color: var(--grey) solid 3px;
+    border-color: var(--grey);
+    border:  solid 3px;
     border-radius: 0px 50px 50px 0px;
 }
 
