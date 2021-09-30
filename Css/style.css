@@ -149,7 +149,7 @@
     padding-left: 10px;
 }
 
-.bouton{
+.bouton-search{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,7 +164,7 @@
     cursor: pointer;
 }
 
-.bouton-search{
+.bouton-search-icon{
     display: none;
     cursor: pointer;
 }
@@ -660,6 +660,12 @@
     width: 30%;
 }
 
+.W3C{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 /* MEDIA Responsive - Mobile */
 
@@ -771,11 +777,11 @@
         align-content: center;
     }
 
-    .bouton{
+    .bouton-search{
         display: none
     }
     
-    .bouton-search{
+    .bouton-search-icon{
         display: block;
         justify-content: center;
         align-items: center;
