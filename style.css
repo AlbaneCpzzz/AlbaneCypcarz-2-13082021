@@ -29,6 +29,7 @@
     align-items: center;
     height: 100%;
     width: 55%;
+    cursor: pointer;
 }
 
 .logo img{
@@ -39,6 +40,7 @@
 .nav-hebergements{
     height: 100%;
     width: 15%;
+    cursor: pointer;
 }
 
 .nav-hebergements a{
@@ -60,6 +62,7 @@
 .nav-activites{
     height: 100%;
     width: 15%;
+    cursor: pointer;
 }
 
 .nav-activites a{
@@ -81,6 +84,7 @@
 .nav-inscription{
     height: 100%;
     width: 15%;
+    cursor: pointer;
 }
 
 .nav-inscription a{
@@ -123,6 +127,7 @@
     width: 51px;  
     background-color: var(--grey);
     border-radius: 10px 0 0 10px;
+    cursor: pointer;
 }
 
 .barre-recherche{
@@ -156,10 +161,12 @@
     background-color: var(--blue);
     border: none;
     border-radius: 0 15px 15px 0;
+    cursor: pointer;
 }
 
 .bouton-search{
     display: none;
+    cursor: pointer;
 }
 
 /* FILTRES */
@@ -182,6 +189,7 @@
     border-radius: 50px;
     margin-right: 20px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .icon-filtres{
@@ -285,6 +293,7 @@
     border-radius: 30px;
     margin: 15px;
     box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.452);
+    cursor: pointer;
 }
 
 .hebergements-item:hover{
@@ -346,6 +355,7 @@
     padding-left: 40px;
     font-size: 80%;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* POPULAIRES*/
@@ -401,6 +411,7 @@
     background-color: white;
     border-radius: 30px;
     box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.452);
+    cursor: pointer;
 }
 
 .populaires-item:hover{
@@ -496,6 +507,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .activites1:hover{
@@ -530,6 +542,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .activites2:hover{
@@ -551,6 +564,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    cursor: pointer;
 }
 
 .activites3:hover{
@@ -571,6 +585,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .activites4:hover{
@@ -591,6 +606,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .activites5:hover{
@@ -612,6 +628,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    cursor: pointer;
 }
 
 .activites6:hover{
